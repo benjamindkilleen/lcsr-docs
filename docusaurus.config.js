@@ -24,7 +24,18 @@ module.exports = {
           type: "doc",
           docId: "intro",
           position: "left",
-          label: "New Students",
+          label: "Getting Started",
+        },
+        {
+          type: "doc",
+          docId: "intro",
+          position: "left",
+          label: "Guide",
+        },
+        {
+          href: "https://lcsr.jhu.edu",
+          label: "LCSR Home",
+          position: "left",
         },
         {
           href: "https://github.com/benjamindkilleen/lcsr-docs",
@@ -82,14 +93,13 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/benjamindkilleen/lcsr-docs/edit/master/website/",
+          editUrl: "https://github.com/benjamindkilleen/lcsr-docs/edit/main/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/benjamindkilleen/lcsr-docs/edit/master/website/blog/",
+            "https://github.com/benjamindkilleen/lcsr-docs/edit/main/website/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

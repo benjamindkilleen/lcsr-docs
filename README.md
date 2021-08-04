@@ -1,4 +1,6 @@
-# LCSR Wiki
+# LCSR Docs
+
+This is an in-progress website for the LCSR at Johns Hopkins University.
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
