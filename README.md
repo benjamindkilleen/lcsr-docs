@@ -1,4 +1,12 @@
+<div align="center">
+
 # LCSR Docs
+
+---
+
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/benjamindkilleen/lcsr-docs)
+
+</div>
 
 This is an in-progress website for the LCSR at Johns Hopkins University.
 

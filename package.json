@@ -6,6 +6,12 @@
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
+    "prettier": "prettier --config .prettierrc --write \"**/*.{js,jsx,ts,tsx,json}\"",
+    "prettier:diff": "prettier --config .prettierrc --list-different \"**/*.{js,jsx,ts,tsx,json}\"",
+    "prettier-docs": "prettier --config .prettierrc --write \"**/*.{md,mdx}\"",
+    "prettier-docs:diff": "prettier --config .prettierrc --list-different \"**/*.{md,mdx}\"",
+    "lint": "yarn lint:js && yarn lint:style",
+    "lint:ci": "yarn lint:js --quiet && yarn lint:style",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
@@ -23,14 +29,11 @@
     "prism-react-renderer": "^1.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "prettier": "^2.2.1",
     "url-loader": "^4.1.1"
   },
   "browserslist": {
-    "production": [
-      ">0.5%",
-      "not dead",
-      "not op_mini all"
-    ],
+    "production": [">0.5%", "not dead", "not op_mini all"],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
